@@ -10,7 +10,7 @@ public class Bag {
 	public Bag () {
 		System.out.println("Non paramter");
 	}
-	public Bag (String Brand , int Price , int Size , int Weight)   {
+	public  Bag (String Brand , int Price , int Size , int Weight)   {
 		System.out.println("paramter");
 		
 		this.Brand = Brand;

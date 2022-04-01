@@ -1,4 +1,4 @@
-package com.kaizen.controllstatements;
+package com.java.kaizen.loops;
 enum weekdays { monday, tuesday, wednesday, thursday, friday, saturday, sunday}
 public class switchtest {
 

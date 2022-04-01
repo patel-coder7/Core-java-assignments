@@ -31,9 +31,6 @@ public class Bus {
 			Tata.pasn = 11;
 			Tata.describeBus();
 	}
-			
-			
-		
 
 	public void describeBus() {
 		System.out.println(

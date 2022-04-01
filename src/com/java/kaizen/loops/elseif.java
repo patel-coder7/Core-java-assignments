@@ -1,4 +1,4 @@
-package com.kaizen.controllstatements;
+package com.java.kaizen.loops;
 
 public class elseif {
 
