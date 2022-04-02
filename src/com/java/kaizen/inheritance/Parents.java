@@ -9,5 +9,9 @@ public class Parents {
 		System.out.println("Home");
 		System.out.println(21000);
 	}
+	public void Sum() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
