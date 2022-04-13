@@ -6,10 +6,7 @@ public class Question1 {
 
 	public static void main(String[] args) {
 	
-
-
-		
-		int arr []  = new int[s];
+         int arr []  = new int[s];
 		
 		int temp = 2;
 		for (int i=0;i<arr.length;i++) {

@@ -5,7 +5,7 @@ public class HexaDecimalNumber {
 		
 	int HexaDecimal = 0xfff;
 	
-	System.out.println("HexaDecimal" + HexaDecimal);
+	System.out.println("HexaDecimal " + HexaDecimal);
 	
 }
 }

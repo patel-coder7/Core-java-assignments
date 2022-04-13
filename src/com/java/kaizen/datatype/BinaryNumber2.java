@@ -1,6 +1,6 @@
 package com.java.kaizen.datatype;
 
-public class BinaryNumber {
+public class BinaryNumber2 {
 	
 	public static void main(String []args) {
 		

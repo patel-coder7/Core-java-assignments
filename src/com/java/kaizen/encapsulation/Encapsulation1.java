@@ -6,7 +6,9 @@ public class Encapsulation1 {
 	
 	private int mobileno;
 	private int Account;
+	
 	Scanner in = new Scanner(System.in);
+	
 	public void setmobileno(int mobileno) {
 		
 		System.out.println("hiiii");

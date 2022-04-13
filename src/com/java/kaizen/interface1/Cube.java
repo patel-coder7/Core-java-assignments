@@ -11,7 +11,8 @@ public class Cube implements Triangle {
 	}
 	public static void main(String []args) {
 		
-		Triangle t;
+	//	Triangle t;
+		Cube t = new Cube();
 		t = new Cube();
 		t.see();
 		t.read();
