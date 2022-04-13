@@ -1,0 +1,88 @@
+Assignment  
+Exception Handling
+
+1.  What is an Exception in java?
+Ans.-  In java Exception Handling can be used to program runtime error  so that the normal flo can be maintained.
+2. What is the super or base class of all Exception in java?
+Ans. -  The Trowable is a  super class of  all error Exception in a java language. only  object that are in instance of a class are thrown are the java virtual machine or can be thrown by the java thro Statement.
+3.   What is the super class for error and exception classes in Java?.
+Ans.-  The throwable is a super  class of all error exception in a java laguage .only object that are in instance of a class are thrown are the java virtual machine or can be thrown by the java throw Statement.
+4. What are the type of Exception in java ApI?
+Ans. - There are Three  types of Exception in java .
+a)    Checked Exception.
+b)    Unchecked Exception .
+C)    Error .
+5.  Why does an exception occur in the program?
+Ans. -  The Exception is an event which occur during the execution of a program that disrupts the normal flow of the program instrucation.
+6.    What is Exception Handling in java ?
+Ans . - Exception Handling to a machins to handl  runtime error .such as class Non Found Exception.  ioExcepion , sqlException, RemotException  etc.
+7.  What is Exception Handler in Java?
+Ans. -  In java Exception an java event that disrupts the normal flow of the program . It is the  an object which is throw n at runtime .
+8.  What is the advantage of using exception handling in Java?    
+Ans.-  The advantage of exception handling to maintian the normal flow of the application.an Exception normally distrupt the normal flow of the application.
+9.  Explain the java Exception hierarchy.?
+Ans. - In java  an event that occur during  the execution of a program that distrupt that  normal program flow with instruction is called the exception java exception can be of sereral types and all exception types are orginizedin a fundamental hierarchy.
+10.  .What does the JVM do when an exception occurs in a program?
+Ans. - How JVM handl in Exception .Default Excption handling  whene inside an method  if an exception occured the method create a object known an Exception object and hands off the run time  system (JVM). the exception object cotain name and drisciption.
+
+11.  What is try block in java ?
+Ans. - In java try block is used to unclose the code that might throw  an exception It must be used to within the method.
+
+12.  Do checked Exception occur at compile time?
+Ans. - It means if a method  is throwing a checked exeption then it should handl the exception using try block  or it shuold declare the excetio   using throw  keyword.
+
+13..  What happens when a runtime exception occurs in a program?
+Ans.-- When ever a runtim error  occure  in a program  first the exception the handl manager  under  the clr identifer the type  of that error occure in the program.
+
+14.  What are the key word to handl an exception in java  ?
+Ans .. The  java throw  keyword  is used to throw an exception excpilicity.  We specify the Exception object whichi is  to be thrown .The xception has some message with it theat provide the error decription .
+
+15.  What are the three possible  from of try block?
+Ans.-   Print out Exception descripion .
+Print the stack track(Hierarchy of method  where the exception occured .
+Causes the program to terminate.
+
+16.   Can we  write statement  betwen trhy block and catch block ?
+Ans.  - Try block -  - In java try block is used to unclose the code that might throw  an exception It must be used to within the method
+Catch block -Java catch block is used to handle the Exception declareing  the type of exception   within  the parmeter the declare exception  must be  parent  class exception  or the ganerated  exception type	.
+
+17.   What is finally block in java ?
+Ans . --  Finally block is the block in java Exception handling to Excute the important code .
+
+18. What is the use of finally block in java ?
+Ans.  -  Java Finally block is a block to used to excute important code such as  closing the connection etc.
+
+19.  . In what scenarios or conditions, a finally block will not be executed?
+Ans.-  The finally block will not e excuted when ther s a steck overflow  Exception there  no room  on the stack to even excute any more code  . it will aslo not be called  when theres  an Exception .
+
+20.  What is the importance of finally block in exception handling?
+Ans. Java finally block  is a block is used  to excute  important code such as closing  the connection  java finally block is always, excute wether an exception is  handle not . there  it containt all the nesecary starement  thet need to be  print.
+
+21.  What is the difference between finally block and finalize() method?
+Ans. -  Finaly block- Finally block is the block in java Exception handling to Excute the important code .
+Finally method-- Finally method is the  java which used  to preform  clean up proccesing  just before object is garbege    collected.
+
+
+22. Does a finally block override the value returned by try or catch block?
+Ans.- Finally block overrides the value returned by try and catch blocks lest take an example to understands this .This program ould return value  since retyrned by try has been override  by finally.
+
+
+23. What is throw keyword in java?
+Ans.-  The java throw keyword in used to declare an  exception  for any method that will throw  an exception  it is mandatory that in the calling method  you use throws list the exception thrown . 
+
+
+24.  . How do we throw an exceptioni in Java?
+Ans.- How to throw in Exception in java throing an exception is an simple as the  use throw statement .you then specify the exception object you wish  to throw every exception  include a message which is human reable error description.
+
+
+25.  Can we use throw statement inside static block?
+Ans.-  you cannot use throws keyword with static block and more over ststic block in invoked compile time on method invokeds it herefor  if you throw an exception using the throw keyword  in aststic blockyou must wrap it within try catch block alse a compile time error we bo generated.
+
+
+26. . Explain the throws clause in Java.
+Ans.-  Throws in akeyword to java which is use to in the signatureof method to indicate thet this method  might throw  one of the listed type exception  the caller  to these method has to hand the exception using a try catch block.
+
+
+27.   What is the difference between throw and throws in Java?
+Ans.-  Throw keyword -- throw keyword  is used to throw and exception exceplicity.
+Throws keyword --  Throws keyword java throws is used  in the method signature to declare an exception.
