@@ -21,6 +21,11 @@ public class Vector1 {
 		
         vt.toString();
         System.out.println(vt);
+        
+        System.out.println(vt.elementAt(i));
+        System.out.println(vt.lastElement());
+        
+        
 		}
 		}
 }
