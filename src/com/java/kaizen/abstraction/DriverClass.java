@@ -10,8 +10,8 @@ public class DriverClass {
 	
 	public static void main(String[] args) {
 		PolicyBaazar obj ;
-		obj = new Icic();
-		
+//		obj = new Icic();
+		obj = new SBI();
 		obj.getRateOfInterest();
 		
 		DriverClass obj1 = DriverClass.getInstance();

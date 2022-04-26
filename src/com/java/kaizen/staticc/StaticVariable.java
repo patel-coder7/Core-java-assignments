@@ -26,6 +26,6 @@ public class StaticVariable {
 		sp.name = "Sumit";
 		sp.rollno = 05;
 		sp.show();
-		
+	
 	}
 }

@@ -16,6 +16,9 @@ public class Maxima extends Watch{
 	public void sub() {
 		
 	}
+	public void Watch() {
+		System.out.println("Price");
+	}
 	public static void main(String []args) {
 		
 		int a  = 35;
