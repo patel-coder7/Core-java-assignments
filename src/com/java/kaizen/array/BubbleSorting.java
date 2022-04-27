@@ -1,14 +1,14 @@
 package com.java.kaizen.array;
 
 public class BubbleSorting {
-	public static void printArray(int arr[]) {
-	for (int i= 0;i<arr.length;i++) {
-		System.out.print(arr[i]+" ");
-		System.out.println();
-	}
-	}
+//	public static void printArray(int arr[]) {
+//	for (int i= 0;i<arr.length;i++) {
+//		System.out.print(arr[i]+" ");
+//		System.out.println();
+//	}
+//	}
 public static void main (String args[]) {
-	int arr[] = {7,8,3,1,2};
+	int arr[] = {7,8,3,1,2,56,23,90};
 	
 	//bubble sort
 	for (int i=0;i<arr.length-1;i++) {
@@ -21,8 +21,11 @@ public static void main (String args[]) {
 			arr[j+1] = temp;
 			}
 		}
+		
+		}
+		for (int i=0;i<arr.length;i++) {
+			System.out.print(arr[i]+" ");
 	}
-	printArray(arr);
 	
 	
 }
