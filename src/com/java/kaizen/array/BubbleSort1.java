@@ -9,7 +9,8 @@ public class BubbleSort1 {
 
 		System.out.println("Array Before Bubble sort");
 		System.out.println(a);
-
+		
+        //Bubble sort
 		int temp;
 		for (int i = 0; i < a.length; i++) {
 
